@@ -2,18 +2,18 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color:#0a0000;
-	overflow: hidden;				/*0a0000*/
+					/*0a0000*/
 }
 .div1{
 	background-color: #1a1b1c;
-    width: 90px;
+    width: 95px;
     height: 550px;
-    position: relative;
-    padding: 0;
+	margin-left: 169px;
+	margin-bottom: 60px;
     display: inline-block;
-    top: 89px;
-    left:169px;
     overflow: hidden;
+
+
 }
 
 #logo{
@@ -24,8 +24,9 @@ body{
 .navbarlist{
 	list-style-type: none;
 	text-decoration: none;
-	padding-top: 80px;
+	padding-top: 30px;
 	padding-left:3px;
+	text-align: center;
 /*	left: -34px;
 */	position: inherit;
 	/*top: 76px;*/
@@ -38,62 +39,55 @@ body{
 /*nav{
 	overflow: auto;
 }*/
-li{
+.person{
 
 	list-style: none;
 	text-decoration: none;
 	font-family: Montserrat;
 	font-weight: 600;
 	font color: #898989;
-	padding-right: 10px;
-	display: inline;-block;
-
+	/*padding-right: 10px;*/
+	display: inline-block;
+	/*padding-left: -5px;*/
+	font-size: 14.5px;
+	text-align: center;
 }
 
-li a{
+.person a{
 	text-decoration: none;
 	color: #898989;
 	line-height: 5;
-	padding-right: 10px;
+	/*padding-right: 20px;*/
+	text-align: center;
+
 }
 
 .all{
 	color: white;
-	margin:0;
-	position: absolute;
-	margin: 0;
-    position: absolute;
-    left: 35px;
-    top:50px;
+	margin:46px 0 0 37px;
+	display: inline-block;
+	overflow: hidden;
+     
 }
-    
-
 .div2{
-	position:absolute;
 	width: 250px;
 	height: 610px;
 	background-color: #1c1c1c;
-	margin: 61px 0px 42px;
 	display: inline-block;
-	left: 259px;
 	overflow: hidden;
+	
+	margin:50px 0 33px ;
 }
 #yashesh-img{
-	position: absolute;
-	bottom:80px;
+	
 	width: 250px;
 	height: 550px;
 	background-color: rgba(28,28,28,1);
 }
 #name{
-	position: absolute;
-	bottom :110px;
+    margin: -74px 50px 10px 62px;
 	color: #fff;
-	text-align: center;
-	display: inline-block;
-	margin-left: 61px;
-	margin-top: 17px;
-	margin-bottom: 0;
+	display: block;
 	font-family: fredoka one;
 	font-weight: light;
 
@@ -101,26 +95,40 @@ li a{
 
 
 #developer{
+	margin: 5px 46px 10px 80px;
 	color: #00c483;
-	position: absolute;
-	bottom: 60px;
 	text-align: center;
 	display: inline-block;
-	margin-left: 80px;
-	margin-bottom: 20px;
+
 	font-family: merriweather;
 
 }
 
-ul{
-	position: fixed;
+.social{
 	display: inline-block;
-	bottom:	60px;
+	margin: -13px  10px 10px -20px;
+	padding-top: 27px; 
+	text-decoration: none;
+	list-style:none;
+	text-align: center;
+	
+
+
+	
+}
+.icons{
+	display: inline-block;
+	padding-left: 10px;
+
 
 }
-li a img{
-	margin-left: 15px;
-	width: 10%;
+
+
+.imagee{
+	
+	width: 20px;
+	display: inline-block;
+	padding: 0	15px 0 15px;
 
 }
 li a img:hover,a:hover,.all:hover{
@@ -131,17 +139,484 @@ li a img:hover,a:hover,.all:hover{
 .div3{
 	z-index: 0;
 	background-color:#1c1e1f;
-	position: absolute;
 	width: 700px;
 	height: 550px;
 	display: block;
 	overflow: hidden;
-	top: 89px;
-	left:510px;
 	scroll-behavior: smooth;
 	overflow: scroll ;
 	color: white;
+	margin:0 0 60px 0;
+	display:inline-block;
 }
 .div3::-webkit-scrollbar{
 	display: none;
+}
+
+.personal-info{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+#about-me{
+	font-family: Righteous;
+	font-size: 60px;
+	
+
+}
+.age-student{
+	font-style: italic;
+	color: #00c483;
+	margin-bottom: 30px;
+
+
+}
+.para{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+}
+hr{
+	width: 30rem;
+	border: 0.2px  outset #888888;
+	
+}
+
+#services{
+	font-family: Righteous;
+	font-size: 60px;
+	
+
+}
+.service{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+.computer-serv{
+	width: 47%;
+	float: left;
+	display: inline-block;
+	margin-bottom: 100px;
+}	
+	
+
+.div-service-computer-para{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+	
+	display: inline-block;
+	
+}
+
+
+/*
+.service-h3{
+	width: 50%;
+	float: right;
+}*/
+#computer-h3{
+	width: 50%
+	color:white;
+
+}
+.comput-ser{
+	display: block;
+	float: right;
+	width: 50%;
+	margin-bottom: 72px;
+	
+
+}
+.security-service{
+	width: 47%;	
+	float: left;
+}
+.website-service{
+	width: 47%;
+	float: left;
+	display: block;
+	padding-left: 20px;
+}
+
+.education{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+}
+#edu{
+	font-family: Righteous;
+	font-size: 60px;
+}
+.educ-para{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+	
+	display: inline-block;
+
+}
+
+hr#educa{
+	width: 30rem;
+	border: 0.2px  outset #888888;
+	margin-top: 30px;
+
+}
+.musi{
+	width: 80%;
+	margin-left: 10%;
+}
+.music{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+}
+#mus{
+		font-family: Righteous;
+	font-size: 60px;
+
+}
+.Contact{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+#con{
+	font-family: Righteous;
+	font-size: 60px;
+
+}
+.contactt{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+	
+	display: inline-block;
+	
+	
+	
+}
+.person{
+	animation: ease-in;
+	animation-duration: 1s;
+}
+
+
+/*IPHONE X SIZE 576PX                  
+                              
+
+
+
+
+                                */
+
+
+
+@media only screen and (max-width:576px)
+{
+	
+.div1
+{
+	background-color: #1a1b1c;
+	width: 100%	;
+	height: 95px;
+	margin-left: 0px;
+	margin-bottom: 60px;
+	display: block;
+	overflow: hidden;
+
+
+}
+
+#logo{
+	margin-left: 40%;
+	size: 40px;
+}
+
+.navbarlist{
+	list-style-type: none;
+	list-style-position: inherit;
+	text-decoration: none;
+	/*padding-top: 30px;
+	padding-left:3px;*/
+	text-transform: uppercase;
+	text-align: center;
+	display: inherit;
+	
+
+}
+/*nav{
+	overflow: auto;
+}*/
+.person{
+
+	list-style: none;
+	text-decoration: none;
+	font-family: Montserrat;
+	font-weight: 600;
+	font color: #898989;
+	/*padding-right: 10px;*/
+	display: inline-block;
+	/*padding-left: -5px;*/
+	font-size: 14.5px;
+	text-align: center;
+}
+
+.person a{
+	text-decoration: none;
+	color: #898989;
+	line-height: 5;
+	/*padding-right: 20px;*/
+	text-align: center;
+
+}
+
+.all{
+	color: white;
+	margin:46px 0 0 37px;
+	display: inline-block;
+	overflow: hidden;
+     
+}
+.div2{
+	width: 250px;
+	height: 610px;
+	background-color: #1c1c1c;
+	display: inline-block;
+	overflow: hidden;
+	
+	margin:50px 0 33px ;
+}
+#yashesh-img{
+	
+	width: 250px;
+	height: 550px;
+	background-color: rgba(28,28,28,1);
+}
+#name{
+    margin: -74px 50px 10px 62px;
+	color: #fff;
+	display: block;
+	font-family: fredoka one;
+	font-weight: light;
+
+}
+
+
+#developer{
+	margin: 5px 46px 10px 80px;
+	color: #00c483;
+	text-align: center;
+	display: inline-block;
+
+	font-family: merriweather;
+
+}
+
+.social{
+	display: inline-block;
+	margin: -13px  10px 10px -20px;
+	padding-top: 27px; 
+	text-decoration: none;
+	list-style:none;
+	text-align: center;
+	
+
+
+	
+}
+.icons{
+	display: inline-block;
+	padding-left: 10px;
+
+
+}
+
+
+.imagee{
+	
+	width: 20px;
+	display: inline-block;
+	padding: 0	15px 0 15px;
+
+}
+li a img:hover,a:hover,.all:hover{
+	color: #03a76c;
+
+}
+
+.div3{
+	z-index: 0;
+	background-color:#1c1e1f;
+	width: 700px;
+	height: 550px;
+	display: block;
+	overflow: hidden;
+	scroll-behavior: smooth;
+	overflow: scroll ;
+	color: white;
+	margin:0 0 60px 0;
+	display:inline-block;
+}
+.div3::-webkit-scrollbar{
+	display: none;
+}
+
+.personal-info{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+#about-me{
+	font-family: Righteous;
+	font-size: 60px;
+	
+
+}
+.age-student{
+	font-style: italic;
+	color: #00c483;
+	margin-bottom: 30px;
+
+
+}
+.para{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+}
+hr{
+	width: 30rem;
+	border: 0.2px  outset #888888;
+	
+}
+
+#services{
+	font-family: Righteous;
+	font-size: 60px;
+	
+
+}
+.service{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+.computer-serv{
+	width: 47%;
+	float: left;
+	display: inline-block;
+	margin-bottom: 100px;
+}	
+	
+
+.div-service-computer-para{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+	
+	display: inline-block;
+	
+}
+
+
+/*
+.service-h3{
+	width: 50%;
+	float: right;
+}*/
+#computer-h3{
+	width: 50%
+	color:white;
+
+}
+.comput-ser{
+	display: block;
+	float: right;
+	width: 50%;
+	margin-bottom: 72px;
+	
+
+}
+.security-service{
+	width: 47%;	
+	float: left;
+}
+.website-service{
+	width: 47%;
+	float: left;
+	display: block;
+	padding-left: 20px;
+}
+
+.education{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+}
+#edu{
+	font-family: Righteous;
+	font-size: 60px;
+}
+.educ-para{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+	
+	display: inline-block;
+
+}
+
+hr#educa{
+	width: 30rem;
+	border: 0.2px  outset #888888;
+	margin-top: 30px;
+
+}
+.musi{
+	width: 80%;
+	margin-left: 10%;
+}
+.music{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+}
+#mus{
+		font-family: Righteous;
+	font-size: 60px;
+
+}
+.Contact{
+	font-family: raleway;
+	padding:10px 30px 10px 30px;
+
+}
+#con{
+	font-family: Righteous;
+	font-size: 60px;
+
+}
+.contactt{
+	text-align: justify;
+	color: #888888;
+	font-weight: 300;
+	line-height: 1.75;
+	
+	display: inline-block;
+	
+	
+	
+}
+.person{
+	animation: ease-in;
+	animation-duration: 1s;
+}
+
+
 }
